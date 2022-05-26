@@ -1,0 +1,172 @@
+.nav-header {
+    background-color: #ffffff;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 0.0625rem solid #e8e8e8;
+}
+
+.nav-header,
+.ul-menu-header {
+    display: flex;
+    flex-direction: row;
+}
+
+/*---------------------------------------------------------- logo-header */
+
+.logo-header{
+    width: 115px;
+}
+
+/* --------------------------------------------------------- Body do Menu */
+
+
+.ul-menu-header {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+    margin:0px;
+}
+
+.li-menu {
+    padding: 0 20px;
+    font-family: "Raleway";
+}
+
+.p-space-menu{
+    padding-top:10px;
+    height: 54px;
+    margin: 0px;
+}
+
+.li-text-menu{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    width: 100px;
+    text-transform:capitalize;
+}
+
+
+
+.li-text-menu:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+/* LH,LIH = Li do Header */
+
+/* -------------------------------------------------------------------- Botão */
+
+.button-menu-header {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+/* .li-menu:hover,
+.button-menu-header:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(27, 31, 34, 0.068);
+} */
+
+.li-text-menu:hover{
+    color: rgba(82, 76, 76, 0.836);
+}
+
+.button-menu-header:focus~.ul-menu-header {
+    height: 320px;
+}
+
+/* ---------------------------------------------------------------------- Responsividade do Menu */
+
+@media (max-width: 714px) {
+
+    .nav-header,
+    .ul-menu-header {
+        flex-direction: column;
+    }
+
+    .ul-menu-header {
+        text-align: center;
+        align-items:center;
+        margin: 0;
+        height: 0;
+    }
+
+    .nav-header {
+        padding: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: flex-start;
+    }
+
+    .button-menu-header {
+        display: flex;
+        margin-right:15px;
+    }
+
+    .li-menu,
+    .ul-menu-header {
+        width: 100%;
+    }
+
+    .li-menu:hover,
+    .button-menu-header:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(202, 202, 202, 0.24);
+}
+}
+
+@media (max-width: 760px) {
+
+    .li-menu{
+        padding: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .li-menu{
+        padding: 16px;
+    }
+}
+
+@media (max-width: 740px) {
+
+    .li-menu{
+        padding: 14px;
+    }
+}
+
+@media (max-width: 730px) {
+
+    .li-menu{
+        padding: 12px;
+    }
+}
+
+@media (max-width:319px) {
+
+    .nav-header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 319px) {
+
+    .button-menu-header {
+        margin-right:0px;
+    }
+}
