@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.adae7e0d.css",
+    "main.js": "/static/js/main.d6d2470d.js",
+    "static/media/imageSecA.png": "/static/media/imageSecA.05024799126e8b585b35.png",
+    "static/media/imageSecB.png": "/static/media/imageSecB.0aac08f9dee71dcff6c8.png",
+    "static/media/sofa-produtos.png": "/static/media/sofa-produtos.3db5d1ff27dfb68953d2.png",
+    "static/media/sofa-produtos3.png": "/static/media/sofa-produtos3.29817999e8d0ad222cf6.png",
+    "static/media/sofa-produtos4.png": "/static/media/sofa-produtos4.1c635ff995dfd09d2c8e.png",
+    "static/media/sofa-produtos2.png": "/static/media/sofa-produtos2.e15f4b6d80ad668bbc60.png",
+    "static/media/logo.png": "/static/media/logo.d903271151a267bed3fe.png",
+    "static/media/beautiful-interior-room-design-concept.jpg": "/static/media/beautiful-interior-room-design-concept.f5437f0e91293383abd4.jpg",
+    "static/media/img_sobre.jpeg": "/static/media/img_sobre.1dcca8acbda5516dc003.jpeg",
+    "index.html": "/index.html",
+    "main.adae7e0d.css.map": "/static/css/main.adae7e0d.css.map",
+    "main.d6d2470d.js.map": "/static/js/main.d6d2470d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adae7e0d.css",
+    "static/js/main.d6d2470d.js"
+  ]
+}
